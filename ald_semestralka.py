@@ -1,3 +1,6 @@
+#vypracovali:
+#Jan Sodomka, Jiří Šeps, Martin Šimon, Tomáš Rychlý
+
 import random
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
