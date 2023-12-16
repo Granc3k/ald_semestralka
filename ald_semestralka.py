@@ -11,7 +11,7 @@ def valid_number(pole, radek, sloupec):
     moznosti = [1, 2, 3, 4, 5, 6]
 
     # Podmínky pro jednotlivá čísla
-    if 1 in moznosti and (sloupec == 0 or pole[radek][sloupec-1] not in [2, 3] or (radek > 0 and pole[radek-1][sloupec] != 5)):
+    if 1 in moznosti and ((radek > 0 and pole[radek-1][sloupec] != 5) or (sloupec == 0 or pole[radek][sloupec-1] not in [2, 3])):
         moznosti.remove(1)
     if 2 in moznosti and ((radek > 0 and pole[radek-1][sloupec] not in [2, 3, 4, 6]) or (sloupec > 0 and pole[radek][sloupec-1] not in [4, 5, 6])):
         moznosti.remove(2)
