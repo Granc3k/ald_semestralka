@@ -3,6 +3,7 @@
 Tento kód vytváří 2D pole o určené šířce a výšce, kde každý prvek pole je vybrán náhodně z možných čísel podle několika pravidel(budou vložena vespod README).
 Inspirace pro výběr obrázků, čísel a logiky za touto úlohou je ze zadání Semestrální práce na předmět ALD, kde byly i vzorové obrázky pro tuto úlohu.
 Poté vizualizuje výsledné pole pomocí knihovny Matplotlib, kde každé číslo je reprezentováno odpovídajícím obrázkem načteným ze souboru.
+Pro spuštění programnu je třeba nainstalovat knihovnu matplotlib.
 
 Zde je rozdělení funkcí a jejich vysvětlení:
 
